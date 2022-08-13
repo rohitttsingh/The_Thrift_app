@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="22dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<TextView
+    android:id="@+id/texter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Trending Brands"
+    android:fontFamily="@font/acme"
+    android:textSize="30dp"
+    android:textColor="@color/teal"
+    android:textStyle="normal"
+    android:layout_margin="12dp"
+    tools:ignore="MissingConstraints" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@+id/texter"
+        app:layout_constraintVertical_bias="0.9"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            android:scrollbars="none"
+            app:layout_constraintVertical_bias="0.9"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/womensafetybtn"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:alpha="0.8"
+                android:padding="2dp"
+                app:cardBackgroundColor="@color/skin"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="20dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="womensafetyfeature"
+                    android:src="@drawable/adidaslogo"
+                     />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/vehicleparking"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:alpha="0.8"
+                android:background="@color/teal"
+
+                android:padding="2dp"
+                android:outlineAmbientShadowColor="@color/blackColor"
+                android:outlineSpotShadowColor="@color/blackColor"
+                app:cardBackgroundColor="@color/blackColor"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="20dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:backgroundTint="@color/whiteColor"
+                    android:background="@color/whiteColor"
+                    android:text="womensafetyfeature"
+                    android:src="@drawable/hmlogo"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/multiplelnguages"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:alpha="0.8"
+                android:background="@color/teal"
+                android:padding="2dp"
+                app:cardBackgroundColor="@color/blackColor"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:backgroundTint="@color/whiteColor"
+                    android:background="@color/whiteColor"
+                    android:text="womensafetyfeature"
+                    android:src="@drawable/zaralogo"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cityinfo"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:alpha="0.8"
+                android:background="@color/teal"
+                android:padding="2dp"
+                app:cardBackgroundColor="@color/skin"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:backgroundTint="@color/whiteColor"
+                    android:background="@color/whiteColor"
+                    android:text="womensafetyfeature"
+                    android:src="@drawable/hmlogo"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+           
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
