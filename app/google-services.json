@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "799918508785",
+    "firebase_url": "https://tstingrealtime-default-rtdb.firebaseio.com",
+    "project_id": "tstingrealtime",
+    "storage_bucket": "tstingrealtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799918508785:android:cf4a73e8e545779750f750",
+        "android_client_info": {
+          "package_name": "com.example.smartkartapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799918508785-ss9ktueko5n1pufuuqj2ou3jplm0tvef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANgKV_URHEUsjzR1yD4LhGBqDC-_NmNTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799918508785-ss9ktueko5n1pufuuqj2ou3jplm0tvef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799918508785:android:2489a7d3888d119550f750",
+        "android_client_info": {
+          "package_name": "com.module.itraeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799918508785-ss9ktueko5n1pufuuqj2ou3jplm0tvef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANgKV_URHEUsjzR1yD4LhGBqDC-_NmNTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799918508785-ss9ktueko5n1pufuuqj2ou3jplm0tvef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799918508785:android:4bf3c3e833870b4d50f750",
+        "android_client_info": {
+          "package_name": "com.module.tstingrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799918508785-ss9ktueko5n1pufuuqj2ou3jplm0tvef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANgKV_URHEUsjzR1yD4LhGBqDC-_NmNTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799918508785-ss9ktueko5n1pufuuqj2ou3jplm0tvef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

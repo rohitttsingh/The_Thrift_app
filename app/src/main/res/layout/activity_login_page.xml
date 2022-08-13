@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:transitionName="example_transition"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/logomain" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/whiteColor"
+        android:text="Login"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/teal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.890" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_margin="22dp"
+        android:ems="10"
+        android:textSize="23dp"
+        android:text="Login To Continue"
+        android:inputType="number"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/whiteColor"
+        android:textStyle="bold"
+        android:backgroundTint="@color/whiteColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <EditText
+        android:id="@+id/logphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_margin="22dp"
+        android:ems="10"
+        android:hint="Enter your phone no"
+        android:inputType="number"
+        android:textColor="@color/whiteColor"
+        android:textColorHint="@color/whiteColor"
+        android:textStyle="bold"
+        android:backgroundTint="@color/whiteColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <EditText
+        android:id="@+id/logpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteColor"
+
+        android:ems="10"
+        android:layout_margin="22dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter your pasword"
+        android:inputType="textPassword"
+        android:textColor="@color/whiteColor"
+        android:textColorHint="@color/whiteColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
+
+    <TextView
+        android:id="@+id/tvstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.800" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
