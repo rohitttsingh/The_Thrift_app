@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/roundcornerswhite.xml" value="0.2525" />
+        <entry key="app/src/main/res/font/.xml" value="0.278125" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.15627899169921877" />
         <entry key="app/src/main/res/layout/activity_accept_orders.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_add_staff.xml" value="0.176605224609375" />
@@ -16,14 +18,14 @@
         <entry key="app/src/main/res/layout/activity_display_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_electronics.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.17962962962962964" />
-        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.2919636082004856" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17962962962962964" />
         <entry key="app/src/main/res/layout/activity_place_order.xml" value="0.43584549515335647" />
-        <entry key="app/src/main/res/layout/activity_reg_log_choice.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_reg_log_choice.xml" value="0.21453857421875" />
         <entry key="app/src/main/res/layout/activity_register_page.xml" value="0.26284484863281254" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.19226531982421877" />
         <entry key="app/src/main/res/layout/app_bar_home_page.xml" value="0.25104166666666666" />
-        <entry key="app/src/main/res/layout/content_home_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_home_page.xml" value="0.24223327636718753" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="app/src/main/res/layout/trialactivtity.xml" value="0.22498647917793402" />
         <entry key="app/src/main/res/menu/activity_home_page_drawer.xml" value="0.2639455782312925" />

@@ -3,26 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="22dp"
+    android:layout_marginTop="32dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<TextView
-    android:id="@+id/texter"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Trending Brands"
-    android:fontFamily="@font/acme"
-    android:textSize="30dp"
-    android:textColor="@color/teal"
-    android:textStyle="normal"
-    android:layout_margin="12dp"
-    tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/texter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trending Brands"
+        android:fontFamily="@font/acme"
+        android:textSize="30dp"
+        android:textColor="@color/teal"
+        android:textStyle="normal"
+        android:layout_margin="12dp"
+        tools:ignore="MissingConstraints" />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
@@ -45,8 +45,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/womensafetybtn"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:layout_margin="5dp"
                 android:alpha="0.8"
                 android:padding="2dp"
@@ -68,8 +68,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/vehicleparking"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:layout_margin="5dp"
                 android:alpha="0.8"
                 android:background="@color/teal"
@@ -98,8 +98,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/multiplelnguages"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:layout_margin="5dp"
                 android:alpha="0.8"
                 android:background="@color/teal"
@@ -122,8 +122,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cityinfo"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:layout_margin="5dp"
                 android:alpha="0.8"
                 android:background="@color/teal"

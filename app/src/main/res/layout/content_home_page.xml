@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/whiteColor"
+    android:background="@color/skin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <fragment
@@ -34,67 +34,65 @@
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:fontFamily="@font/acme"
-        android:text="Shop By Category"
+        android:text="Shop By Categories"
         android:textColor="@color/teal"
         android:textSize="30dp"
         android:textStyle="normal"
-        tools:ignore="MissingConstraints"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.40" />
+        app:layout_constraintVertical_bias="0.375"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/clothing"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:backgroundTint="#e73AB7"
+        android:background="@drawable/womencategoryimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.574" />
 
     <Button
         android:id="@+id/electronics"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:backgroundTint="#b73AB7"
+        android:background="@drawable/mencategoryimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.572" />
 
     <Button
         android:id="@+id/books"
-        android:layout_width="185dp"
+        android:layout_width="180dp"
         android:layout_height="180dp"
-        android:backgroundTint="#673AB7"
+        android:background="@drawable/kidscategoryimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.97" />
 
     <Button
         android:id="@+id/otherItems"
-        android:layout_width="182dp"
+        android:layout_width="180dp"
         android:layout_height="180dp"
-        android:backgroundTint="#a73AB7"
+        android:background="@drawable/shoescategoryimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-  
+        app:layout_constraintVertical_bias="0.968" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
