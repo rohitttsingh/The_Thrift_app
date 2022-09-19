@@ -35,7 +35,7 @@ public class SplashScreen extends AppCompatActivity {
 
                 try {
 
-                    sleep(6000);//6000
+                    sleep(3000);
 
                     startActivity(new Intent(SplashScreen.this,RegLogChoice.class));
 

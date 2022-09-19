@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pjimage"
+    android:background="@color/skin"
     tools:context=".Clothing">
 
     <Button
         android:id="@+id/btMen"
-        android:layout_width="425dp"
+        android:layout_width="match_parent"
         android:layout_height="330dp"
-        android:backgroundTint="#00000000"
+        android:layout_margin="22dp"
+        android:background="@drawable/topimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,9 +22,10 @@
 
     <Button
         android:id="@+id/btWomen"
-        android:layout_width="425dp"
+        android:layout_width="match_parent"
         android:layout_height="330dp"
-        android:backgroundTint="#00000000"
+        android:layout_margin="22dp"
+        android:background="@drawable/bottomimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

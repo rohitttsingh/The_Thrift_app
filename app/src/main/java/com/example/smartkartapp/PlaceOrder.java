@@ -26,6 +26,7 @@ static DatabaseReference databaseOrders;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_place_order);
         cname=(TextView)findViewById(R.id.custname);
         cphone=(TextView)findViewById(R.id.custphone);

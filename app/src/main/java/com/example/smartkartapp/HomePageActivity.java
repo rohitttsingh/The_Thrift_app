@@ -48,8 +48,9 @@ Button clothing,electronics,books,otherItems;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "You Can Add Your Products", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                startActivity(new Intent(getApplicationContext(),UserUploadingProducts.class));
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -83,36 +84,44 @@ Button clothing,electronics,books,otherItems;
                 intent.putExtra("PHONE",sph);
                 intent.putExtra("PASSWORD",spa);
                 startActivity(intent);
+                Toast.makeText(getApplicationContext(),"Women",Toast.LENGTH_LONG).show();
+
             }
         });
         electronics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomePageActivity.this,Electronics.class);
-                intent.putExtra("NAME",sna);
-                intent.putExtra("PHONE",sph);
-                intent.putExtra("PASSWORD",spa);
-                startActivity(intent);
+//                Intent intent=new Intent(HomePageActivity.this,Electronics.class);
+//                intent.putExtra("NAME",sna);
+//                intent.putExtra("PHONE",sph);
+//                intent.putExtra("PASSWORD",spa);
+//                startActivity(intent);
+                Toast.makeText(getApplicationContext(),"Men",Toast.LENGTH_LONG).show();
+
             }
         });
         books.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomePageActivity.this,Books.class);
-                intent.putExtra("NAME",sna);
-                intent.putExtra("PHONE",sph);
-                intent.putExtra("PASSWORD",spa);
-                startActivity(intent);
+//                Intent intent=new Intent(HomePageActivity.this,Books.class);
+//                intent.putExtra("NAME",sna);
+//                intent.putExtra("PHONE",sph);
+//                intent.putExtra("PASSWORD",spa);
+//                startActivity(intent);
+                Toast.makeText(getApplicationContext(),"Books" ,Toast.LENGTH_LONG).show();
+
             }
         });
         otherItems.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomePageActivity.this,OtherItems.class);
-                intent.putExtra("NAME",sna);
-                intent.putExtra("PHONE",sph);
-                intent.putExtra("PASSWORD",spa);
-                startActivity(intent);
+//                Intent intent=new Intent(HomePageActivity.this,OtherItems.class);
+//                intent.putExtra("NAME",sna);
+//                intent.putExtra("PHONE",sph);
+//                intent.putExtra("PASSWORD",spa);
+//                startActivity(intent);
+                Toast.makeText(getApplicationContext(),"Shoes" ,Toast.LENGTH_LONG).show();
+
             }
         });
         databaseOrders=FirebaseDatabase.getInstance().getReference("orders");

@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class RegLogChoice extends AppCompatActivity {
     Button reg,log;
@@ -48,19 +49,24 @@ public class RegLogChoice extends AppCompatActivity {
         admlog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RegLogChoice.this,AdminLogin.class));
+              //  startActivity(new Intent(RegLogChoice.this,AdminLogin.class));
+                Toast.makeText(RegLogChoice.this,"Admin Login",Toast.LENGTH_LONG).show();
+
             }
         });
         stflog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RegLogChoice.this,StaffLogin.class));
+                // startActivity(new Intent(RegLogChoice.this,StaffLogin.class));
+                Toast.makeText(RegLogChoice.this,"Staff Login",Toast.LENGTH_LONG).show();
+
             }
         });
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RegLogChoice.this,About.class));
+               // startActivity(new Intent(RegLogChoice.this,About.class));
+                Toast.makeText(RegLogChoice.this,"About",Toast.LENGTH_LONG).show();
             }
         });
     }

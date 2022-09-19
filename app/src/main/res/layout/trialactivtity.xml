@@ -139,7 +139,7 @@
                     android:backgroundTint="@color/whiteColor"
                     android:background="@color/whiteColor"
                     android:text="womensafetyfeature"
-                    android:src="@drawable/hmlogo"
+                    android:src="@drawable/levis"
                     />
 
             </androidx.cardview.widget.CardView>

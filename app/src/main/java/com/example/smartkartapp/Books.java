@@ -32,13 +32,15 @@ public class Books extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_books);
         recyclerView=findViewById(R.id.rvBooks);
+
         final String sna=getIntent().getStringExtra("NAME");
         final String sph=getIntent().getStringExtra("PHONE");
         final String spa=getIntent().getStringExtra("PASSWORD");
+
         layoutManager=new GridLayoutManager(this,1);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
-        adapter=new RecyclerAdapter(images,details,prices,this,sna,sph,spa,"Books");
+        adapter = new RecyclerAdapter(images,details,prices,this,sna,sph,spa,"Books");
         recyclerView.setAdapter(adapter);
 
     }
